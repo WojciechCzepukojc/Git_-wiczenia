@@ -28,5 +28,14 @@ public class Main {
 
 
         }
+
+        System.out.println("bok A: " + equaliteral.getA());
+        System.out.println("bok B: " + equaliteral.getB());
+        System.out.println("bok C: " + equaliteral.getC());
+        System.out.println("poprawny: " + (equaliteral.isValid() ? "tak" : "nie"));
+        if (equaliteral.isValid()) {
+            System.out.println("pole: " + equaliteral.getField());
+            System.out.println("obwód: " + equaliteral.getPerimeter());
+        }
     }
 }
