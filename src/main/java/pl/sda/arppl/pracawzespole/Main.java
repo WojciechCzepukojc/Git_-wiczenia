@@ -13,10 +13,20 @@ public class Main {
         System.out.println(pythagorean.isValid());
         System.out.println(triangle.isValid());
 
+        System.out.println(equaliteral.getField());
+        System.out.println(isosceles.getField());
+        System.out.println(pythagorean.getField());
+        System.out.println(triangle.getField());
+
+        System.out.println("bok A: " + pythagorean.getA());
+        System.out.println("bok B: " + pythagorean.getB());
+        System.out.println("bok C: " + pythagorean.getC());
+        System.out.println("poprawny: " + (pythagorean.isValid() ? "tak" : "nie"));
+        if (pythagorean.isValid()) {
+            System.out.println("pole: " + pythagorean.getField());
+            System.out.println("obwód: " + pythagorean.getPerimeter());
 
 
-
-
+        }
     }
-
 }

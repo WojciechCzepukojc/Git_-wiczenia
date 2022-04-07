@@ -18,4 +18,25 @@ public class Triangle {
             return false;
         }
     }
+
+    public double getField(){
+        double p = (a + b + c) / 2; //wzór Herona
+        return Math.sqrt(p * (p - a) * (p - b) * (p - c));
+    }
+
+    public int getPerimeter(){
+        return a + b + c;
+    }
+
+    public int getA() {
+        return a;
+    }
+
+    public int getB() {
+        return b;
+    }
+
+    public int getC() {
+        return c;
+    }
 }
