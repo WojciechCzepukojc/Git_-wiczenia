@@ -6,25 +6,21 @@ public class Main {
         int result = (int) (Math.random() * 6 + 1);
        switch (result) {
            case 1 :
-               System.out.println("Wyrzucono wartość 1");
+           case 3 :
+           case 5 :
+               System.out.println("Wyrzucono nieparzystą liczbę oczek");
                break;
            case 2 :
-               System.out.println("Wyrzucono wartość 2");
-               break;
-           case 3 :
-               System.out.println("Wyrzucono wartość 3");
-               break;
            case 4 :
-               System.out.println("Wyrzucono wartość 4");
-               break;
-           case 5 :
-               System.out.println("Wyrzucono wartość 5");
+
+               System.out.println("Wyrzucono parzystą liczbę oczek");
                break;
            case 6 :
-               System.out.println("Wyrzucono wartość 6");
+               System.out.println("Wyrzucono parzystą liczbę oczek");
+               System.out.println("WYGRALES");
                break;
            default:
-               System.out.println("Błąd albo kość zatrzymała się na kancie!");
+               System.out.println("Jesteś najebany, rzuć jeszcze raz" );
 
 
 
