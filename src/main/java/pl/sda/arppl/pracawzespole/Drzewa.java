@@ -1,13 +1,21 @@
 package pl.sda.arppl.pracawzespole;
 
 public class Drzewa {
-    String l_i;
-    int wiek;
-    String kolor;
+    public static void obliczenia() {
 
-    public Drzewa(String l_i, int wiek, String kolor) {
-        this.l_i = l_i;
-        this.wiek = wiek;
-        this.kolor = kolor;
     }
+
+    {
+
+        int a = 5;
+        int b = 3;
+        double c = 2.5;
+        double d = 4.2;
+
+        double srednia = (a + b + c + d) / 4;
+        System.out.println(srednia);
+
+
+    }
+
 }
