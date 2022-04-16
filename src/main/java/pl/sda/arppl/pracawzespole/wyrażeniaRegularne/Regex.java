@@ -10,7 +10,5 @@ public class Regex {
         String nrDomu = scanner.next();
 
 
-        Pattern pattern = Pattern.compile([1-9]);
-        Matcher matcher = pattern.matcher(nrDomu);
     }
 }
