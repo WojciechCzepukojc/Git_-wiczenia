@@ -28,7 +28,7 @@ public class Figury {
         System.out.println("Ma obwód: " + kwadrat.getObwod());
         System.out.println();
 
-        System.out.println("Prostokąt o bokach: a " + prostokąt.getA() + ", oraz b " + prostokąt.getB());
+        System.out.println("Prostokąt o bokach: a: " + prostokąt.getA() + ", oraz b: " + prostokąt.getB());
         System.out.println("Ma pole: " + prostokąt.getPole());
         System.out.println("Ma obwód: " + prostokąt.getObwod());
         System.out.println();
